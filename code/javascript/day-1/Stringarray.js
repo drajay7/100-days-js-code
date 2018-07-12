@@ -1,7 +1,13 @@
-var name = "Ajay";
+var name = "Vijay";
 console.log(name[0]);
 console.log(name[name.length - 1]);
 console.log(name[name.length - 2]);
 console.log(name[name.length - 3]);
-name = "Vijay";
+name = name.substr(0,2) + 'n' + name.substr(3);
 console.log(name);
+console.log(name.substr(0,0));
+console.log(name.substr(0,1));
+console.log(name.substr(0,2));
+console.log(name.substr(0,3));
+console.log(name.substr(1,1));
+console.log(name.substr(1,2));
